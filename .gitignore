@@ -1,0 +1,9 @@
+echo "node_modules/
+__pycache__/
+*.pyc
+.env
+plantvillage dataset/
+plant_data_split/
+*.zip
+plant_model_checkpoint.keras
+.ipynb_checkpoints/" > .gitignore
