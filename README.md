@@ -2,7 +2,6 @@
 
 An end-to-end deep learning project designed to identify **38 different classes** of plant diseases from leaf images with high precision.
 
----
 
 ## 🚀 Features
 * **Core Architecture:** Fine-tuned **EfficientNetV2B0** architecture for high-efficiency feature extraction.
@@ -10,7 +9,6 @@ An end-to-end deep learning project designed to identify **38 different classes*
 * **Robustness:** Optimized with **Class Weights** and strategic fine-tuning to differentiate between visually similar diseases.
 * **Interactive Web App:** Real-time diagnostics via a user-friendly **Streamlit** interface.
 
----
 
 ## 🛠️ The Pipeline
 
@@ -23,7 +21,6 @@ The project follows a structured computer vision workflow to ensure reliable and
 
 
 
----
 
 ## 🧠 Computer Vision Concepts Applied
 
@@ -37,7 +34,6 @@ This project utilizes several advanced CV techniques to ensure high accuracy and
 
 
 
----
 
 ## 🛠️ Tech Stack
 * **Deep Learning:** TensorFlow, Keras
@@ -45,7 +41,6 @@ This project utilizes several advanced CV techniques to ensure high accuracy and
 * **Visualization:** Matplotlib, Seaborn
 * **Deployment:** Streamlit
 
----
 
 ## 📊 Performance
 The model was fine-tuned by unfreezing the top layers of the EfficientNet base, significantly improving the recall for similar-looking diseases. Through the use of a **Learning Rate Scheduler (ReduceLROnPlateau)**, the model successfully converged to a stable 96% accuracy.
